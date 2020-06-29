@@ -33,6 +33,10 @@ body{
     color:#fff;
 }
 
+.hire-btn a:hover{
+    color:#fff;
+}
+
 .arrow{
     height:25px !important;
     width:25px !important;
