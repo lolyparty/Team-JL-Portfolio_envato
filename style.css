@@ -198,7 +198,9 @@ a:hover{
     border-radius:20px;
 }
 
-
+.img-rep{
+    width:100% !important;
+}
 
 @media screen and (max-width:768px){
 
@@ -234,3 +236,9 @@ a:hover{
         }
 }
 
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    .contact-input{
+        width:450px !important;
+        margin-right:0px !important;        
+    }
+}
