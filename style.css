@@ -101,8 +101,6 @@ body{
     cursor:pointer;
 }
 
-
-
 .navlist{
     margin-top:5rem !important;
 }
@@ -232,7 +230,8 @@ a:hover{
 
         .option{
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-between !important;
+            /* align-content:start; */
         }
 }
 
