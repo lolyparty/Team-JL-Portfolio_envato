@@ -9,6 +9,26 @@ body{
     margin:0px;
 }
 
+.container{
+    overflow-x: hidden !important;
+}
+
+.scroll_top{
+    height:30px;
+    width:30px;
+    position: fixed;
+    top:70vh;
+    background:transparent;
+    right:3%;
+    z-index:10000000;
+}
+
+.fa.fa-arrow-up{
+    align-self: center;
+    color:#000;
+    cursor: pointer;
+}
+
 .welcome{
     background: url('img/back.png');
     background-repeat: no-repeat;
