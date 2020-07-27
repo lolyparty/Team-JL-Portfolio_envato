@@ -1,5 +1,3 @@
-
-
    var closenav = function(){
     document.querySelector('.slider').classList.add('closure');
     document.querySelector('.slider').classList.remove('slide-nav');
@@ -44,4 +42,3 @@ else{
 document.querySelector('.scroll_top').addEventListener('click', ()=>{
   window.scrollTo(0,0)
 })
-
